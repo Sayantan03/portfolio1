@@ -8,19 +8,19 @@ const contactDetails = [
   {
     icon: <PhoneIcon color="primary" sx={{ fontSize: 40 }} />,
     title: "Phone",
-    info: "704-369-4415", // ✅ Extracted from resume
+    info: "704-369-4415",
     link: "tel:+17043694415",
   },
   {
     icon: <EmailIcon color="primary" sx={{ fontSize: 40 }} />,
     title: "Email",
-    info: "baniksayantan19@gmail.com", // ✅ Extracted from resume
+    info: "baniksayantan19@gmail.com",
     link: "mailto:baniksayantan19@gmail.com",
   },
   {
     icon: <LinkedInIcon color="primary" sx={{ fontSize: 40 }} />,
     title: "LinkedIn",
-    info: "linkedin.com/in/sayantan-banik", // ✅ Extracted from resume
+    info: "linkedin.com/in/sayantan-banik",
     link: "https://www.linkedin.com/in/sayantan-banik",
   },
 ];
@@ -45,7 +45,7 @@ const Contact = () => (
                 textAlign: "center",
                 borderRadius: 3,
                 transition: "0.3s",
-                "&:hover": { transform: "scale(1.05)" }, // Hover effect
+                "&:hover": { transform: "scale(1.05)" },
               }}
             >
               <Box mb={1}>{contact.icon}</Box>

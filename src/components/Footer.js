@@ -3,11 +3,11 @@ import { Typography, Box } from "@mui/material";
 const Footer = () => (
   <Box
     sx={{
-      position: "fixed", // ✅ Sticks the footer at the bottom
+      position: "fixed",
       bottom: 0,
       left: 0,
       width: "100%",
-      backgroundColor: "lightgray", // Change color as needed
+      backgroundColor: "lightgray",
       color: "black",
       textAlign: "center",
       padding: "10px 0",

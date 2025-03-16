@@ -5,16 +5,16 @@ const Home = () => (
   <Container>
     <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1 }}>
       
-      {/* Profile Image - Larger Avatar */}
+      {/* Profile Image*/}
       <Box display="flex" justifyContent="center" mt={4}>
-        <Avatar 
-          alt="Sayantan Banik" 
-          src="/profile.jpg" // Make sure this matches your filename in the public folder
-          sx={{ width: 200, height: 200, border: "5px solid #1976d2" }} // Increased size
-        />
+      <Avatar 
+        alt="Sayantan Banik" 
+        src={`${process.env.PUBLIC_URL}/assets/profile.JPG`}
+        sx={{ width: 200, height: 200, border: "5px solid #1976d2" }} 
+      />
       </Box>
 
-      {/* About Me Section - Transparent Background */}
+      {/* About Me Section*/}
       <Paper 
         elevation={3} 
         sx={{ 
@@ -22,8 +22,8 @@ const Home = () => (
           marginTop: 4, 
           borderRadius: 3, 
           textAlign: "center", 
-          background: "rgba(255, 255, 255, 0.6)", // ✅ Semi-transparent white
-          backdropFilter: "blur(10px)", // ✅ Adds a subtle glass effect
+          background: "rgba(255, 255, 255, 0.6)",
+          backdropFilter: "blur(10px)",
         }}
       >
         <Typography variant="h4" gutterBottom color="primary">

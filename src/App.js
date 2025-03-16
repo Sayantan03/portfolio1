@@ -10,11 +10,10 @@ import "./App.css";
 function AppWrapper() {
   const location = useLocation();
 
-  // Define background images for each route
   const backgrounds = {
-    "/": "/home_bg.jpg",
-    "/projects": "/projects_bg.jpg",
-    "/contact": "/contact_bg.jpg",
+    "/": `${process.env.PUBLIC_URL}/assets/home_bg.jpg`,
+    "/projects": `${process.env.PUBLIC_URL}/assets/projects_bg.jpg`,
+    "/contact": `${process.env.PUBLIC_URL}/assets/contact_bg.jpg`,
   };
 
   return (

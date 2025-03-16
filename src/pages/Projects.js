@@ -38,7 +38,7 @@ const Projects = () => (
               <Typography variant="body2" sx={{ marginTop: 1 }}>
                 {project.description}
               </Typography>
-              {/* Show "View Project" only if a link exists */}
+              {/*"View Project"*/}
               {project.link && (
                 <Box mt={2}>
                   <Link href={project.link} target="_blank" rel="noopener" color="secondary">
