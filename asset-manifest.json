@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Sayantan03/portfolio1.git/static/css/main.dc4d6ff2.css",
+    "main.js": "/Sayantan03/portfolio1.git/static/js/main.1ba71baf.js",
+    "index.html": "/Sayantan03/portfolio1.git/index.html",
+    "main.dc4d6ff2.css.map": "/Sayantan03/portfolio1.git/static/css/main.dc4d6ff2.css.map",
+    "main.1ba71baf.js.map": "/Sayantan03/portfolio1.git/static/js/main.1ba71baf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dc4d6ff2.css",
+    "static/js/main.1ba71baf.js"
+  ]
+}
